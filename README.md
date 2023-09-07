@@ -1,5 +1,25 @@
 # Node.js-HW
 
+# Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
+
+node index.js --action="list"
+https://ibb.co/GRmqmC6
+
+# Отримуємо контакт по id і виводимо у консоль об'єкт контакту або null, якщо контакту з таким id не існує.
+
+node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6
+https://ibb.co/1qm2cph
+
+# Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
+
+node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
+https://ibb.co/Bg13rt9
+
+# Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
+
+node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH
+https://ibb.co/gM9ZVLT
+
 Крок 1
 Ініціалізуй проєкт за допомогою команди npm init
 В корені проєкту створи файл index.js
@@ -135,23 +155,3 @@ node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22
 node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH
 Крок 6 - Здача домашнього завдання.
 Зроби скріншоти виконання команд, які залий на будь-який безкоштовний хмарний сервіс зберігання картинок (приклади: monosnap, imgbb.com ), і відповідні посилання додай в файл README.md (створи цей файл в корені проєкту). Після прикріпи в LMS посилання на репозиторій для перевірки ментором виконаної роботи.
-
-# Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
-
-node index.js --action="list"
-https://ibb.co/GRmqmC6
-
-# Отримуємо контакт по id і виводимо у консоль об'єкт контакту або null, якщо контакту з таким id не існує.
-
-node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6
-https://ibb.co/1qm2cph
-
-# Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
-
-node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
-https://ibb.co/Bg13rt9
-
-# Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
-
-node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH
-https://ibb.co/gM9ZVLT
